@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
 
 body {
     height: 100vh;
@@ -10,14 +12,24 @@ body {
 }
 
 ul, a {
+    color: #000000;
     display: inline-flex;
     list-style: none;
     text-decoration: none;
     gap: 20px;
 }
 
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #f58442;
+}
+
 .right-links {
     font-family: 'roboto', sans-serif;
+    font-weight: bold;
 }
 
 img {
@@ -25,6 +37,11 @@ img {
     height: 300px;
     
 }
+
+.logoLink {
+    color: black;
+}
+
 
 .header .logo {
     font-family: 'Bebas Neue', sans-serif;
@@ -53,7 +70,7 @@ img {
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    padding-bottom: 50px;
+    padding-bottom: 115px;
 }
 
 .heroSectionkid {
@@ -63,13 +80,15 @@ img {
 }
 
 .heroSectionkid one {
-    margin-right: 20px;
+    
 }
 
-.heroSectionkid two {
+.heroSectionkid two img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 200px;
+    margin-right: 55px;
 }
 
 
@@ -139,4 +158,32 @@ figcaption {
     text-align: center;
     width: 200px;
     margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.testimonialSection {
+    display: flex;
+    justify-content: center;
+    background-color: #f58442;
+    padding: 150px 0 70px;
+    
+}
+
+.quote {
+    width: 800px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic; 
+    font-size: 32px;
+    margin-bottom: -5px;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.author {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    float: right;
 }
