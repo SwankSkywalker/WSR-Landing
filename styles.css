@@ -210,6 +210,10 @@ figcaption {
     font-weight: bold;
 }
 
+.signup {
+    font-weight: 200;
+}
+
 .callButton {
     background-color: rgba(245, 132, 66, 1);
     border-color: #ffffff;
