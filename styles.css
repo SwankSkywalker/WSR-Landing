@@ -70,13 +70,13 @@ img {
     padding-bottom: 115px;
 }
 
-.heroSectionkid {
+.heroSectionKid {
     flex: 1;
     flex-direction: row;
     margin: 0 55px;
 }
 
-.heroSectionkid two img {
+.heroSectionKid two img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,6 +111,12 @@ img {
     padding-bottom: -30px;
 }
 
+.newEpBtn {
+    display: flex;
+    height: 45.5px;
+    width: 150px;
+}
+
 #latestEp {
     padding: 15px 25px;
     border-radius: 20px;
@@ -126,7 +132,7 @@ img {
     background-color:var(--secondary-color);
     width: 100%;
     cursor: pointer;
-    scale: 0.5;
+    scale: 1.2;
 }
 
 .button {
@@ -242,14 +248,20 @@ figcaption {
 }
 
 .callButton {
-    background-color: rgba(245, 132, 66, 1);
-    border-color: #ffffff;
+    background-color: var(--main-color);
     padding: 8px 34px;
     border-radius: 10px;
-    border-style: solid;
+    border-style: none;
     color: #ffffff;
     font-weight: bold;
     font-size: 16px;
+}
+
+.callButton:hover {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    scale: 1.2px;
+    transition: 0.3s ease-in-out;
 }
 
 .footer {
